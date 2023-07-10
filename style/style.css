@@ -1,0 +1,176 @@
+*{ 
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+margin: 0px;
+padding: 0px;
+}
+/* first banner style */
+.banner-container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner-text{
+    padding-left:240px;
+    padding-right: 200px;
+}
+.banner-title{
+    color: #272727;
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.banner-image{
+    height: auto;
+    margin-right: 50px;
+}
+.btn-style{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    background: #E55473;
+    border: 0px;
+    padding: 20px 43px; 
+}
+.btn-style:hover{
+    color: black;
+    cursor: pointer;
+}
+
+/* Our Featured Flowers section style */
+.banner-heading{
+    margin-top: 150px;
+    text-align: center;
+}
+.heading-description{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 0px  520px;
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+text-align: center;
+}
+.flowers{
+    margin-top: 120px;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap: 40px;
+   /* padding: 315px; */
+   padding-left: 315px;
+   padding-right: 315px;
+}
+.flower-item1{
+    
+    height: auto;
+   border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
+.flower-item2{
+    width: 464px;
+    height: 538px;
+    display: block;
+    position:static;
+    margin-left: auto;
+    margin-right: auto;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+.flower-item3{
+    width: auto;
+    max-height: 100%;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+}
+.flo{
+    list-style: none;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;  
+}
+/* hot deal section */
+.hot-deal{
+    height: 70vh;
+    background: rgba(229, 84, 115, 0.05);;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rose-image{
+    padding-right: 200px;
+}
+   .hot-deal-text{
+    text-align: center;
+    }
+    .hot-deal-description{
+        margin: 25px 0px;
+        padding:0px 300px;
+        
+    }
+
+
+.flowers-item{
+    text-align: center;
+    margin-bottom: 120px;
+
+}
+.deals-title{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 10px;
+}
+.deals{
+    background-image: url(../background-images/Rectangle\ 9.png);
+margin: 0px 220px; 
+margin-bottom: 70px;
+}
+.deals-details{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.subscribe-form{
+ text-align: center;
+ margin-top: 50px;
+border: 0px;
+display: block;
+width: 100%;
+
+}
+.deals-title{
+    padding-top: 120px;
+}
+
+footer{
+    text-align: center;
+    background-color:  #111010;
+}
+.shop-name{
+    color:#FFFFFF;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 800;
+}
+.color-word{
+color: #E55473;
+}
+.shop-details{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+}
+.copyright{
+    font-size: 16px;
+    margin-top: 30px;
+}
