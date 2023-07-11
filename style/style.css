@@ -173,8 +173,7 @@ color: #E55473;
 
 .deals{
     background-image: url(../background-images/Rectangle\ 9.png);
-       background-repeat: no-repeat;
-    /* background-position: center; */
+    background-repeat: no-repeat;
     height: 80vh;
     margin: 0px 100px;
 }
@@ -208,7 +207,7 @@ width: 100%;
 .deals-title{
     padding-top: 120px;
 }
-
+/* footer section style */
 footer{
     text-align: center;
     background-color:  #111010;
