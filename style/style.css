@@ -3,9 +3,47 @@
 margin: 0px;
 padding: 0px;
 }
+header{
+    background-image: url('../Flower Asset/pexels-lisa-fotios-1182338.jpg');
+    height: 35vh;
+    background-size: contain;
+}
+
+/* nav section style */
+.shop-name{
+    text-align: center;
+    color:#FFFFFF;
+    padding-top: 100px;
+    margin-bottom: 40px;
+    font-size: 48px;
+    font-weight: 800;
+       
+}
+.color-word{
+color: #E55473;
+}
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-bar{
+    margin-top: 25px;
+    text-decoration: none;
+    font-size:large;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    background: #393837;
+    padding: 20px 43px;
+}
+.nav-bar:hover{
+    color: rgb(223, 112, 112);
+    cursor: pointer;
+}
+
 /* first banner style */
 .banner-container{
-    height: 100vh;
+    height: 110vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,8 +65,9 @@ padding: 0px;
     margin-bottom: 25px;
 }
 .banner-image{
-    height: auto;
+   
     margin-right: 50px;
+    margin-top: 17px;
 }
 .btn-style{
     color: #FFFFFF;
@@ -53,52 +92,61 @@ padding: 0px;
     margin-bottom: 25px;
     padding: 0px  520px;
     color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-text-align: center;
+    font-size: 18px;
+    text-align: center;
 }
 .flowers{
-    margin-top: 120px;
     display: flex;
-   justify-content: space-around;
-   align-items: center;
-   gap: 40px;
-   /* padding: 315px; */
-   padding-left: 315px;
-   padding-right: 315px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .flower-item1{
+    width: 464px;
+    height: 538px;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
     
-    height: auto;
-   border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
+}
+.item1-position{
+    margin-left: 78px;
+    margin-top: 110px;
 }
 .flower-item2{
     width: 464px;
     height: 538px;
-    display: block;
-    position:static;
-    margin-left: auto;
-    margin-right: auto;
-border-radius: 300px 300px 0px 0px;
-background: rgba(5, 151, 160, 0.15);
-}
-.flower-item3{
-    width: auto;
-    max-height: 100%;
+    background: rgba(5, 151, 160, 0.15);
     border-radius: 300px 300px 0px 0px;
-background: rgba(71, 125, 17, 0.15);
 }
-.flo{
-    list-style: none;
-    display: flex;
-   justify-content: space-around;
-   align-items: center;  
+.item2-position{
+  margin: 117px 47px 51px 47px;
+}
+
+.flower-item3{
+    width: 464px;
+    height: 538px;
+    background: #477D1126;
+    border-radius: 300px 300px 0px 0px;
+}
+.item3-position{
+    margin-left: 78px;
+    margin-top: 67px;  
+}
+.flower-name{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    text-decoration-line: underline;
+    margin-top: 30px;
+}
+.flower-name:hover{
+    color: rgb(0, 0, 255);
+    cursor: pointer;
 }
 /* hot deal section */
 .hot-deal{
-    height: 70vh;
+    height: 80vh;
     background: rgba(229, 84, 115, 0.05);;
-    margin-top: 70px;
+    margin-top: 220px;
     margin-bottom: 70px;
     display: flex;
     justify-content: space-around;
@@ -122,6 +170,14 @@ background: rgba(71, 125, 17, 0.15);
     margin-bottom: 120px;
 
 }
+
+.deals{
+    background-image: url(../background-images/Rectangle\ 9.png);
+       background-repeat: no-repeat;
+    /* background-position: center; */
+    height: 80vh;
+    margin: 0px 100px;
+}
 .deals-title{
     color: #272727;
 text-align: center;
@@ -129,24 +185,25 @@ font-size: 40px;
 font-weight: 800;
 margin-bottom: 10px;
 }
-.deals{
-    background-image: url(../background-images/Rectangle\ 9.png);
-margin: 0px 220px; 
-margin-bottom: 70px;
-}
 .deals-details{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
-    font-weight: 400;
 }
 .subscribe-form{
+    padding-top: 45px;
  text-align: center;
- margin-top: 50px;
+ margin-top: 30px;
 border: 0px;
 display: block;
 width: 100%;
-
+}
+.email-box{
+    width: 600px;
+    height: 20px;
+    border-radius: 0px;
+    background: #FFF;
+    padding: 20px;
 }
 .deals-title{
     padding-top: 120px;
@@ -156,21 +213,16 @@ footer{
     text-align: center;
     background-color:  #111010;
 }
-.shop-name{
-    color:#FFFFFF;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    font-size: 48px;
-    font-weight: 800;
-}
-.color-word{
-color: #E55473;
-}
+
 .shop-details{
     color: rgba(255, 255, 255, 0.90);
     font-size: 18px;
+    max-width: 600px;
+    margin-left: 510px;
 }
 .copyright{
     font-size: 16px;
     margin-top: 30px;
+    padding-bottom: 20px;
+    color: rgb(239, 239, 248);
 }
